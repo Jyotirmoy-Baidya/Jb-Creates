@@ -6,6 +6,8 @@ import Abraham from './pages/Abraham'
 import ProductDetailsCard from './components/abraham/ProductDetailsCard'
 import Jb from './pages/Jb'
 import MrBeast from './components/Jb/MrBeast'
+import FurnitureLandingPage from './components/Jb/FurnitureLandingPage'
+import N8nImagePost from './components/Jb/N8nImagePost'
 
 const App = () => {
   return (
@@ -22,6 +24,9 @@ const App = () => {
         } />
         <Route path="/jb" element={<Jb />} />
         <Route path="/jb/mrbeast" element={<MrBeast />} />
+        <Route path="/jb/furniture-landing-page" element={<FurnitureLandingPage />} />
+        <Route path="/jb/n8n-post" element={<N8nImagePost />} />
+
 
         <Route path="/augustas" element={<Augustas />} />
         <Route path='/augustas/green-card' element={<AugustasGreenCard />} />
